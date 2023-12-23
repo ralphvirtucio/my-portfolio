@@ -1,8 +1,3 @@
-import githubLogo from './assets/images/icon-github.svg';
-import frontendMentorLogo from './assets/images/icon-frontend-mentor.svg';
-import linkedInLogo from './assets/images/icon-linkedin.svg';
-import twitterLogo from './assets/images/icon-twitter.svg';
-import testProfileImg from './assets/images/image-profile-mobile.webp';
 import thumbnailProjectOne from './assets/images/thumbnail-project-1-small.webp';
 import thumbnailProjectTwo from './assets/images/thumbnail-project-2-small.webp';
 import thumbnailProjectThree from './assets/images/thumbnail-project-3-small.webp';
@@ -10,42 +5,23 @@ import thumbnailProjectFour from './assets/images/thumbnail-project-4-small.webp
 import thumbnailProjectFive from './assets/images/thumbnail-project-5-small.webp';
 import thumbnailProjectSix from './assets/images/thumbnail-project-6-small.webp';
 
+import { Header } from './components/Header/Header';
+import { Hero } from './components/Hero/Hero';
+import { SocialMediaBar } from './components/SocialMediaBar/SocialMediaBar';
+
+// TODO
+const tempStyles = {
+  width: '90%',
+  marginInline: 'auto',
+};
+
 const App = () => {
   return (
     <>
-      <header>
-        <h1>ralphvirtucio</h1>
+      <Header />
 
-        <ul>
-          <a href='#'>
-            <img
-              src={githubLogo}
-              alt='Github'
-            />
-          </a>
-          <a href='#'>
-            <img
-              src={frontendMentorLogo}
-              alt='Frontend Mentor'
-            />
-          </a>
-          <a href=''>
-            <img
-              src={linkedInLogo}
-              alt='LinkedIn'
-            />
-          </a>
-          <a href=''>
-            <img
-              src={twitterLogo}
-              alt='Twitter'
-            />
-          </a>
-        </ul>
-      </header>
-
-      <main>
-        <section>
+      <main style={tempStyles}>
+        {/* <section>
           <div>
             <h2>
               Nice to meet you! I&apos;m <strong>Ralph Virtucio.</strong>
@@ -65,7 +41,9 @@ const App = () => {
               alt='Profile'
             />
           </div>
-        </section>
+        </section> */}
+
+        <Hero />
 
         <section>
           <ul>
@@ -219,32 +197,7 @@ const App = () => {
       <footer>
         <h2>ralphvirtucio</h2>
 
-        <ul>
-          <a href='#'>
-            <img
-              src={githubLogo}
-              alt='Github'
-            />
-          </a>
-          <a href='#'>
-            <img
-              src={frontendMentorLogo}
-              alt='Frontend Mentor'
-            />
-          </a>
-          <a href=''>
-            <img
-              src={linkedInLogo}
-              alt='LinkedIn'
-            />
-          </a>
-          <a href=''>
-            <img
-              src={twitterLogo}
-              alt='Twitter'
-            />
-          </a>
-        </ul>
+        <SocialMediaBar />
       </footer>
     </>
   );
