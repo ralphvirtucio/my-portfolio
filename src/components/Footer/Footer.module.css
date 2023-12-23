@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--neutralColorTwo);
+  color: var(--neutralColorFour);
+
+}
+
+.footer__container {
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 3.75rem;
+}

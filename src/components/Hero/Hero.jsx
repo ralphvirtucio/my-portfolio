@@ -1,4 +1,5 @@
 import testProfileImg from '../../assets/images/image-profile-mobile.webp';
+import { ButtonLink } from '../Button/Button';
 import styles from './Hero.module.css';
 
 export const Hero = () => {
@@ -15,11 +16,7 @@ export const Hero = () => {
           about building accessible web apps that users love.
         </p>
 
-        <a
-          href=''
-          className={styles['btn--contact__me']}>
-          Contact Me
-        </a>
+        <ButtonLink link='#'>Contact Me</ButtonLink>
       </div>
 
       <div className={styles.hero__img}>

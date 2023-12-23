@@ -1,7 +1,7 @@
 import { SocialMediaBar } from '../SocialMediaBar/SocialMediaBar';
 import styles from './Header.module.css';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div className={styles.header}>
@@ -12,3 +12,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

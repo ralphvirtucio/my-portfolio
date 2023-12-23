@@ -1,0 +1,30 @@
+.project {
+  img {
+    margin-block-end: 1.25rem;
+  }
+
+}
+
+.project__title {
+  line-height: 2rem;
+  font-size: var(--fontSizeM);
+  text-transform: uppercase;
+
+}
+
+.project__used-skills {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  gap: 1.13rem;
+  margin-block: 1.25rem;
+
+}
+
+.project__cta {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

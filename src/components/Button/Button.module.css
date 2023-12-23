@@ -1,0 +1,10 @@
+.btn-link__contact-me {
+  text-transform: uppercase;
+  font-weight: var(--fontWeight700);
+  letter-spacing: 0.14288rem;
+  line-height: var(--lineHeightBody);
+  text-decoration: none;
+  padding-block-end: .62rem;
+  border-bottom: 3px solid var(--primaryColorOne);
+  color: var(--neutralColorFour);
+}
