@@ -7,9 +7,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer__container}>
         <Contact />
-        <h2>ralphvirtucio</h2>
 
-        <SocialMediaBar />
+        <SocialMediaBar customSocialMediaStyle='footer'>
+          <h2>ralphvirtucio</h2>
+        </SocialMediaBar>
       </div>
     </footer>
   );

@@ -1,0 +1,16 @@
+.form__control {
+  border-bottom: 1px solid var(--neutralColorFour);
+  margin-block-end: 3.2rem;
+
+  .textarea {
+    background-color: transparent;
+    border: none;
+    line-height: var(--lineHeightBody);
+    text-transform: uppercase;
+    font-weight: var(--fontWeight500);
+    color: var(--neutralColorFour);
+    padding-inline-start: 1.5rem;
+    padding-block-end: 1rem;
+    outline: none;
+  }
+}

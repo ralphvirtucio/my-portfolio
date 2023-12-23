@@ -7,4 +7,24 @@
   padding-block-end: .62rem;
   border-bottom: 3px solid var(--primaryColorOne);
   color: var(--neutralColorFour);
+  cursor: pointer;
+}
+
+.btn__primary {
+  text-transform: uppercase;
+  font-weight: var(--fontWeight700);
+  letter-spacing: 0.14288rem;
+  line-height: var(--lineHeightBody);
+  text-decoration: none;
+  padding-block-end: .62rem;
+  border: none;
+  border-bottom: 3px solid var(--primaryColorOne);
+  color: var(--neutralColorFour);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.btn__primary.btn__primary--footer {
+  align-self: flex-end;
 }

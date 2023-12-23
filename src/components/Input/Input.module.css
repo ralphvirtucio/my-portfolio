@@ -1,0 +1,31 @@
+.form__control {
+  &:not(:last-child) {
+    margin-block-end: 1.5rem;
+
+
+  }
+
+  border-bottom: 1px solid var(--neutralColorFour);
+
+  input {
+    background-color: transparent;
+    border: none;
+    line-height: var(--lineHeightBody);
+    text-transform: uppercase;
+    font-weight: var(--fontWeight500);
+    color: var(--neutralColorFour);
+    padding-inline-start: 1.5rem;
+    padding-block-end: 1rem;
+    outline: none;
+
+
+  }
+
+  /* &::after {
+    content: '';
+    width: 100%;
+    height: .0625rem;
+    background-color: var(--neutralColorFour);
+    display: block;
+  } */
+}
