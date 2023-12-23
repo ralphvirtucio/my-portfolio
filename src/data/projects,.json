@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Design Portfolio",
+    "skills": ["HTML", "CSS"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-1-small.webp"
+  },
+  {
+    "title": "E-Learning Landing Page",
+    "skills": ["HTML", "CSS"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-2-small.webp"
+  },
+  {
+    "title": "Todo Web App",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-3-small.webp"
+  },
+  {
+    "title": "Entertainment Web App",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-4-small.webp"
+  },
+  {
+    "title": "Memory Game",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-5-small.webp"
+  },
+  {
+    "title": "Art Gallery Showcase",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "project_link": "",
+    "project_code_link": "",
+    "project_thumbnail": "../../assets/images/thumbnail-project-6-small.webp"
+  }
+]
