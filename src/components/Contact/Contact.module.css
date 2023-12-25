@@ -1,6 +1,13 @@
 .contact {
   padding-block-end: 5.44rem;
   border-bottom: 1px solid var(--neutralColorFour);
+  position: relative;
+}
+
+.contact__ring {
+  position: absolute;
+  right: 50%;
+  bottom: 18%;
 }
 
 .contact__content {

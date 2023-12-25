@@ -3,6 +3,13 @@
   margin-block: 5rem;
   border-top: 1px solid var(--neutralColorFour);
   border-bottom: 1px solid var(--neutralColorFour);
+  position: relative;
+}
+
+.skill__ring {
+  position: absolute;
+  top: 500px;
+  left: 50%;
 }
 
 .skill__list {
