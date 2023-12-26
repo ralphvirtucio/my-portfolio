@@ -5,12 +5,10 @@ import styles from './Main.module.css';
 
 const Main = () => {
   return (
-    <main>
-      <div className={styles.main}>
-        <Hero />
-        <Skills />
-        <Projects />
-      </div>
+    <main className={styles.main}>
+      <Hero />
+      <Skills />
+      <Projects />
     </main>
   );
 };
