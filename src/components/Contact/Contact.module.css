@@ -2,6 +2,7 @@
   padding-block-end: 5.44rem;
   border-bottom: 1px solid var(--neutralColorFour);
   position: relative;
+  background: url('../../assets/images/pattern-rings.svg') no-repeat bottom 25% right -80%;
 }
 
 .contact__ring {

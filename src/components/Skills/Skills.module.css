@@ -4,6 +4,7 @@
   border-top: 1px solid var(--neutralColorFour);
   border-bottom: 1px solid var(--neutralColorFour);
   position: relative;
+  background: url('../../assets/images/pattern-rings.svg') no-repeat bottom left -90%;
 }
 
 .skill__ring {
@@ -22,6 +23,7 @@
   text-align: center;
   gap: 1.5rem;
   padding-block: 2.5rem;
+
 
 
   .skill__list-item {

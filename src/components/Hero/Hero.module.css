@@ -3,6 +3,7 @@
   flex-direction: column-reverse;
   color: var(--neutralColorFour);
   position: relative;
+  background: url('../../assets/images/pattern-rings.svg') no-repeat top right 200px, url('../../assets//images/pattern-circle.svg') no-repeat bottom 60% right -30%;
 }
 
 .hero__content {
