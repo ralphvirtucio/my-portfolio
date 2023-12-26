@@ -52,6 +52,7 @@
   font-weight: var(--fontWeight500);
   line-height: var(--lineHeightBody);
   color: var(--neutralColorThree);
+  padding-inline: 1rem;
 }
 
 .hero__ring {
