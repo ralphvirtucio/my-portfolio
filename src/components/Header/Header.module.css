@@ -1,13 +1,5 @@
-/* .header {
-  color: var(--neutralColorFour);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.25rem;
-  padding-block-start: 1.25rem;
-
-
-  h1 {
-    font-size: var(--fontSizeM);
+@media only screen and (min-width: 48rem) {
+  .header {
+    margin-block-end: 4.30rem;
   }
-} */
+}

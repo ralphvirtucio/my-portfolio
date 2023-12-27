@@ -1,4 +1,6 @@
-import testProfileImg from '../../assets/images/image-profile-mobile.webp';
+import profileMobile from '../../assets/images/image-profile-mobile.webp';
+import profileTablet from '../../assets/images/image-profile-tablet.webp';
+import profileDesktop from '../../assets/images/image-profile-desktop.webp';
 import { ButtonLink } from '../Button/Button';
 import styles from './Hero.module.css';
 
@@ -20,10 +22,21 @@ export const Hero = () => {
       </div>
 
       <div className={styles.hero__img}>
-        <img
-          src={testProfileImg}
-          alt='Profile'
-        />
+        <picture>
+          <source
+            media='(min-width: 48rem)'
+            srcSet={profileTablet}
+          />
+          <source
+            media='(min-width: 64rem)'
+            srcSet={profileDesktop}
+          />
+
+          <img
+            src={profileMobile}
+            alt='Profile'
+          />
+        </picture>
       </div>
     </section>
   );
