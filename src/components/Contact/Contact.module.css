@@ -1,14 +1,12 @@
 .contact {
   padding-block-end: 5.44rem;
-  border-bottom: 1px solid var(--neutralColorFour);
   position: relative;
+  max-width: 25rem;
+  margin-inline: auto;
+
 }
 
-.contact__ring {
-  position: absolute;
-  right: 50%;
-  bottom: 18%;
-}
+
 
 .contact__content {
   text-align: center;

@@ -12,7 +12,6 @@ export const Hero = () => {
           Nice to meet you! I&apos;m{' '}
           <span className={styles.hero__name}>Ralph Virtucio</span>.
         </h2>
-
         <p className={styles['hero__content--text']}>
           Based in the Philippines, I&apos;m a front-end developer passionate
           about building accessible web apps that users love.

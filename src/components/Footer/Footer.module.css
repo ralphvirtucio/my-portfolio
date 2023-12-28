@@ -7,5 +7,12 @@
 .footer__container {
   padding-block-start: 3.75rem;
   padding-inline: 1rem;
-  background: url('../../assets/images/pattern-rings.svg') no-repeat bottom 40% right -80%;
+  background: url('../../assets/images/pattern-rings.svg') no-repeat bottom 300px right 200px;
+}
+
+@media only screen and (min-width: 48rem) {
+  .footer__container {
+    background-position: -350px 510px;
+
+  }
 }

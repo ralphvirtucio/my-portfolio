@@ -24,8 +24,8 @@ export const Skills = () => {
           <h3>Python</h3>
           <p>1 Year Experience</p>
         </li>
-        <li>
-          <h3>Sass</h3>
+        <li className={styles['skill__list-item']}>
+          <h3>SASS</h3>
           <p>2 Years Experience</p>
         </li>
       </ul>

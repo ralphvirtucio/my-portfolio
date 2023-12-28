@@ -38,5 +38,10 @@
     h1 {
       font-size: 2rem;
     }
+
+    &.footer {
+      border-top: 1px solid var(--neutralColorFour);
+
+    }
   }
 }
