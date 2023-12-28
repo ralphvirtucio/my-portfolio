@@ -12,5 +12,6 @@
     padding-inline-start: 1.5rem;
     padding-block-end: 1rem;
     outline: none;
+    width: 100%;
   }
 }
