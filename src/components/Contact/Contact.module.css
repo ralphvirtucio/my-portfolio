@@ -1,12 +1,10 @@
 .contact {
   padding-block-end: 5.44rem;
   position: relative;
-  max-width: 25rem;
+  max-width: 27rem;
   margin-inline: auto;
 
 }
-
-
 
 .contact__content {
   text-align: center;
@@ -45,5 +43,17 @@
 
   &.btn__primary--footer {
     align-self: flex-end;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .contact__heading {
+    font-size: 4.5rem;
+    line-height: var(--lineHeightL);
+  }
+
+  .contact__text {
+    font-size: var(--fontSizeBody);
+    line-height: var(--lineHeightBody);
   }
 }
