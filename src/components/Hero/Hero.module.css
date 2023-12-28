@@ -83,7 +83,7 @@
 @media only screen and (min-width: 48rem) {
   .hero {
     grid-template-columns: 3fr 5rem 2fr;
-    background-position: top right 550px, bottom right -70px;
+    background-position: top right 550px, bottom 10px right -70px;
 
   }
 
@@ -121,5 +121,21 @@
   .hero__img {
     width: auto;
     z-index: -1;
+    transform: translateY(-137px);
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .hero__content--heading {
+    font-size: var(--fontSizeXL);
+    line-height: var(--lineHeightXL);
+    letter-spacing: var(--letterSpacingXL);
+
+  }
+
+  .hero__content--text {
+    margin-block-start: 2.70rem;
+    margin-block-end: 2.60rem;
+    line-height: var(--lineHeightBody);
   }
 }

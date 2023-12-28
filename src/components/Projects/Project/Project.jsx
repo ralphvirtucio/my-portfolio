@@ -16,11 +16,10 @@ export const Project = ({ title, thumbnail, skills }) => {
       <div className={styles.project__content}>
         <h2 className={styles.project__title}>{title}</h2>
         <ul className={styles['project__used-skills']}>{mappedSkills}</ul>
-
-        <div className={styles.project__cta}>
-          <ButtonLink>View Project</ButtonLink>
-          <ButtonLink>View Code</ButtonLink>
-        </div>
+      </div>
+      <div className={styles.project__cta}>
+        <ButtonLink>View Project</ButtonLink>
+        <ButtonLink>View Code</ButtonLink>
       </div>
     </li>
   );

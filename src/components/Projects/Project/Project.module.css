@@ -5,6 +5,7 @@
 
 }
 
+
 .project__title {
   line-height: 2rem;
   font-size: var(--fontSizeM);
@@ -21,6 +22,12 @@
   gap: 1.13rem;
   margin-block: 1.25rem;
 
+
+  li {
+    font-size: var(--fontSizeBody);
+    color: var(--neutralColorThree);
+    line-height: var(--lineHeightBody);
+  }
 }
 
 .project__cta {
