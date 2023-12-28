@@ -12,7 +12,7 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr;
   text-align: center;
   row-gap: 1.5rem;
   padding-block: 2.5rem;
@@ -47,6 +47,7 @@
     border-bottom: none;
     row-gap: 3.25rem;
     column-gap: 7.55rem;
+    grid-template-columns: 1fr 1fr;
 
     .skill__list-item {
       h3 {
