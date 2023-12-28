@@ -13,6 +13,15 @@
 @media only screen and (min-width: 48rem) {
   .footer__container {
     background-position: -360px 540px;
+  }
+
+
+}
+
+/* @media only screen and (min-width: 64rem) {
+  .footer__container {
+    max-width: 70rem;
+    margin-inline: auto;
 
   }
-}
+} */

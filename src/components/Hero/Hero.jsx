@@ -1,6 +1,7 @@
 import profileMobile from '../../assets/images/image-profile-mobile.webp';
 import profileTablet from '../../assets/images/image-profile-tablet.webp';
 import profileDesktop from '../../assets/images/image-profile-desktop.webp';
+import myprofile from '../../assets/images/image-profile-me.png';
 import { ButtonLink } from '../Button/Button';
 import styles from './Hero.module.css';
 
