@@ -158,3 +158,10 @@
      line-height: var(--lineHeightBody);
    }
  }
+
+ @media only screen and (min-width: 90rem) {
+   .hero {
+     background-position: top right 992px, bottom 150px right 590px;
+   }
+
+ }

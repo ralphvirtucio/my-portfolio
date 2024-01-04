@@ -19,7 +19,8 @@
 
 @media only screen and (min-width: 64rem) {
   .footer__container {
-    background-position: -10% 65%;
+    /* background-position: -10% 65%;*/
+    background-position: -25% 60%;
     padding-block-start: 5.5rem;
   }
 }

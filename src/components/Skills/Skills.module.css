@@ -77,3 +77,11 @@
     margin-inline: auto;
   }
 }
+
+@media only screen and (min-width: 90rem) {
+
+  .skill {
+    background-position: bottom 5px right -100px;
+
+  }
+}
