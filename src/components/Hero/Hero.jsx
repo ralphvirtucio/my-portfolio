@@ -18,7 +18,7 @@ export const Hero = () => {
             about building accessible web apps that users love.
           </p>
 
-          <ButtonLink link='#'>Contact Me</ButtonLink>
+          <ButtonLink link='#contact'>Contact Me</ButtonLink>
         </div>
 
         <div className={styles.hero__img}>

@@ -1,15 +1,10 @@
 .form__control {
-  &:not(:last-child) {
-    margin-block-end: 1.5rem;
 
-
+  &.email {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1.5rem;
   }
-
-
-
-
-
-
 
   input {
     background-color: transparent;
@@ -30,12 +25,40 @@
     }
 
   }
+}
 
-  /* &::after {
-    content: '';
-    width: 100%;
-    height: .0625rem;
-    background-color: var(--neutralColorFour);
-    display: block;
-  } */
+.form__control--email {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+
+}
+
+
+
+.invalid__icon {
+  border: 1px solid var(--accentColorOne);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+
+  svg {
+    fill: var(--accentColorOne);
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+
+.invalid__text {
+  display: block;
+  color: var(--accentColorOne);
+  align-self: flex-end;
+  font-size: 0.75rem;
 }

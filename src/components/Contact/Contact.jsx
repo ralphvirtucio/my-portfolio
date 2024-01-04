@@ -1,11 +1,14 @@
 import { Input } from '../Input/Input';
 import { TextArea } from '../Input/TextArea';
-import { ButtonLink, PrimaryButton } from '../Button/Button';
+import { PrimaryButton } from '../Button/Button';
 import styles from './Contact.module.css';
+import { EmailInput } from '../Input/EmailInput';
 
 export const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section
+      className={styles.contact}
+      id='contact'>
       <div className={styles.contact__content}>
         <h2 className={styles.contact__heading}>Contact</h2>
         <p className={styles.contact__text}>
@@ -21,12 +24,8 @@ export const Contact = () => {
           placeholder='Name'
           id='name'
         />
-        <Input
-          type='email'
-          name='email'
-          placeholder='Email'
-          id='Email'
-        />
+        <EmailInput />
+
         <TextArea />
         <PrimaryButton
           type='submit'

@@ -14,7 +14,7 @@ export const Projects = () => {
       <div className={styles.project__header}>
         <h2>Projects</h2>
 
-        <ButtonLink link='#'>Contact Me</ButtonLink>
+        <ButtonLink link='#contact'>Contact Me</ButtonLink>
       </div>
 
       <ul className={styles.project__list}>
