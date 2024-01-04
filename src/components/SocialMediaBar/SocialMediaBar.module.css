@@ -12,6 +12,21 @@
   &.footer {
     padding-block: 2.44rem;
     padding-block-end: 3.75rem;
+
+    ul li {
+
+      a {
+        svg path {
+          transition: fill 200ms ease-in;
+        }
+      }
+
+      a:hover {
+        svg path {
+          fill: var(--primaryColorOne);
+        }
+      }
+    }
   }
 
   h1 {

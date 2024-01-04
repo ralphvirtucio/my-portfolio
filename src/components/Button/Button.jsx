@@ -5,7 +5,7 @@ export const ButtonLink = ({ children, link = '#' }) => {
   return (
     <a
       href={link}
-      className={styles['btn-link__contact-me']}>
+      className={styles['primary__btn-link']}>
       {children}
     </a>
   );
