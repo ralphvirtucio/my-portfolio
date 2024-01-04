@@ -45,3 +45,12 @@
     }
   }
 }
+
+@media only screen and (min-width: 64rem) {
+  .social-media__bar.footer {
+    margin-inline: auto;
+    max-width: 70rem;
+    padding-block-end: 5.75rem;
+
+  }
+}

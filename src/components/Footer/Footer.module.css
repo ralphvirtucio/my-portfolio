@@ -1,7 +1,6 @@
 .footer {
   background-color: var(--neutralColorTwo);
   color: var(--neutralColorFour);
-
 }
 
 .footer__container {
@@ -18,10 +17,9 @@
 
 }
 
-/* @media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 64rem) {
   .footer__container {
-    max-width: 70rem;
-    margin-inline: auto;
-
+    background-position: -10% 65%;
+    padding-block-start: 5.5rem;
   }
-} */
+}
