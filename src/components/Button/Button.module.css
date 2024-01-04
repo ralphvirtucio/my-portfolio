@@ -6,8 +6,27 @@
   text-decoration: none;
   padding-block-end: .62rem;
   border-bottom: 3px solid var(--primaryColorOne);
-  color: var(--neutralColorFour);
   cursor: pointer;
+
+  transition: color 200ms ease-in;
+
+  &:link {
+    color: var(--neutralColorFour);
+  }
+
+  &:active {
+    color: var(--neutralColorFour);
+
+  }
+
+  &:visited {
+    color: var(--neutralColorFour);
+
+  }
+
+  &:hover {
+    color: var(--primaryColorOne);
+  }
 }
 
 .btn__primary {

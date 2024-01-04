@@ -9,10 +9,16 @@ export const Project = ({ title, thumbnail, skills }) => {
 
   return (
     <li className={styles.project}>
-      <img
-        src={thumbnail}
-        alt={title}
-      />
+      <div className={styles.project__hoverable}>
+        <div className={styles['project__cta--desktop']}>
+          <ButtonLink>View Project</ButtonLink>
+          <ButtonLink>View Code</ButtonLink>
+        </div>
+        <img
+          src={thumbnail}
+          alt={title}
+        />
+      </div>
       <div className={styles.project__content}>
         <h2 className={styles.project__title}>{title}</h2>
         <ul className={styles['project__used-skills']}>{mappedSkills}</ul>

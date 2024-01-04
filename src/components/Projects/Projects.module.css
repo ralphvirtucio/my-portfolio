@@ -59,5 +59,6 @@
   .project {
     max-width: 70rem;
     margin-inline: auto;
+    margin-block-end: 8.70rem;
   }
 }
