@@ -1,5 +1,6 @@
 .form__control {
-  border-bottom: 1px solid var(--neutralColorFour);
+  display: flex;
+  flex-direction: column;
   margin-block-end: 3.2rem;
 
   .textarea {
@@ -13,8 +14,48 @@
     padding-block-end: 1rem;
     outline: none;
     width: 100%;
+    border-bottom: 1px solid var(--neutralColorFour);
+
+    &:focus {
+      border-bottom: 1px solid var(--primaryColorOne)
+    }
+
   }
 }
+
+.form__control--textarea {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.invalid__icon {
+  border: 1px solid var(--accentColorOne);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+
+  svg {
+    fill: var(--accentColorOne);
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+
+.invalid__text {
+  display: block;
+  color: var(--accentColorOne);
+  align-self: flex-end;
+  font-size: 0.75rem;
+}
+
+
 
 @media only screen and (min-width: 64rem) {
   .form__control {

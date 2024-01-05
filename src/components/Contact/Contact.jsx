@@ -2,8 +2,9 @@ import { Input } from '../Input/Input';
 import { TextArea } from '../Input/TextArea';
 import { PrimaryButton } from '../Button/Button';
 import styles from './Contact.module.css';
+import PropTypes from 'prop-types';
 
-export const Contact = () => {
+export const Contact = ({ onSubmitForm }) => {
   return (
     <section
       className={styles.contact}
@@ -16,7 +17,9 @@ export const Contact = () => {
         </p>
       </div>
 
-      <form className={styles.contact__form}>
+      <form
+        className={styles.contact__form}
+        onSubmit={onSubmitForm}>
         <Input
           type='text'
           name='name'
@@ -40,4 +43,8 @@ export const Contact = () => {
       </form>
     </section>
   );
+};
+
+Contact.propTypes = {
+  onSubmitForm: PropTypes.func,
 };
