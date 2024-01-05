@@ -1,7 +1,15 @@
 import PropTypes from 'prop-types';
 import styles from './Input.module.css';
 
-export const Input = ({ type, placeholder, name, id, customInputStyle }) => {
+export const Input = ({
+  type,
+  placeholder,
+  name,
+  id,
+  customInputStyle,
+  value,
+  onChange,
+}) => {
   const isInputInvalid = false;
 
   return (
@@ -13,6 +21,8 @@ export const Input = ({ type, placeholder, name, id, customInputStyle }) => {
           name={name}
           required
           id={id}
+          value={value}
+          onChange={onChange}
         />
         {isInputInvalid && (
           <span className={styles.invalid__icon}>
@@ -40,5 +50,7 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   name: PropTypes.string,
   id: PropTypes.string,
+  value: PropTypes.string,
   customInputStyle: PropTypes.string,
+  onChange: PropTypes.func,
 };

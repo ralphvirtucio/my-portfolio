@@ -1,6 +1,7 @@
 import styles from './TextArea.module.css';
+import PropTypes from 'prop-types';
 
-export const TextArea = () => {
+export const TextArea = ({ value, onChange }) => {
   const isTextareaEmpty = false;
 
   return (
@@ -13,6 +14,8 @@ export const TextArea = () => {
           cols='30'
           rows='3'
           placeholder='Message'
+          value={value}
+          onChange={onChange}
           required></textarea>
         {isTextareaEmpty && (
           <span className={styles.invalid__icon}>
@@ -33,4 +36,9 @@ export const TextArea = () => {
       )}
     </div>
   );
+};
+
+TextArea.propTypes = {
+  value: PropTypes.string,
+  onChange: PropTypes.func,
 };

@@ -25,7 +25,31 @@ export const ContactContainer = () => {
 
   function handleSubmitContactForm(e) {
     e.preventDefault();
+
+    const contactInfo = {
+      name,
+      email,
+      textArea,
+    };
+
+    alert(JSON.stringify(contactInfo));
+
+    console.log(contactInfo);
+
+    setName('');
+    setEmail('');
+    setTextArea('');
   }
 
-  return <Contact onSubmitForm={handleSubmitContactForm} />;
+  return (
+    <Contact
+      name={name}
+      email={email}
+      textarea={textArea}
+      onChangeName={handleChangeName}
+      onChangeEmail={handleChangeEmail}
+      onChangeTextarea={handleChangeTextArea}
+      onSubmitForm={handleSubmitContactForm}
+    />
+  );
 };

@@ -4,7 +4,15 @@ import { PrimaryButton } from '../Button/Button';
 import styles from './Contact.module.css';
 import PropTypes from 'prop-types';
 
-export const Contact = ({ onSubmitForm }) => {
+export const Contact = ({
+  name,
+  onChangeName,
+  email,
+  onChangeEmail,
+  textarea,
+  onChangeTextarea,
+  onSubmitForm,
+}) => {
   return (
     <section
       className={styles.contact}
@@ -26,6 +34,8 @@ export const Contact = ({ onSubmitForm }) => {
           placeholder='Name'
           id='name'
           customInputStyle='input__name'
+          value={name}
+          onChange={onChangeName}
         />
         <Input
           type='email'
@@ -33,8 +43,13 @@ export const Contact = ({ onSubmitForm }) => {
           placeholder='Email'
           id='email'
           customInputStyle='input__email'
+          value={email}
+          onChange={onChangeEmail}
         />
-        <TextArea />
+        <TextArea
+          value={textarea}
+          onChange={onChangeTextarea}
+        />
         <PrimaryButton
           type='submit'
           buttonStyle='btn__primary--footer'>
@@ -46,5 +61,11 @@ export const Contact = ({ onSubmitForm }) => {
 };
 
 Contact.propTypes = {
+  name: PropTypes.string,
+  email: PropTypes.string,
+  textarea: PropTypes.string,
+  onChangeName: PropTypes.func,
+  onChangeEmail: PropTypes.func,
+  onChangeTextarea: PropTypes.func,
   onSubmitForm: PropTypes.func,
 };
