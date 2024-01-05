@@ -2,7 +2,6 @@ import { Input } from '../Input/Input';
 import { TextArea } from '../Input/TextArea';
 import { PrimaryButton } from '../Button/Button';
 import styles from './Contact.module.css';
-import { EmailInput } from '../Input/EmailInput';
 
 export const Contact = () => {
   return (
@@ -23,9 +22,15 @@ export const Contact = () => {
           name='name'
           placeholder='Name'
           id='name'
+          customInputStyle='input__name'
         />
-        <EmailInput />
-
+        <Input
+          type='email'
+          name='email'
+          placeholder='Email'
+          id='email'
+          customInputStyle='input__email'
+        />
         <TextArea />
         <PrimaryButton
           type='submit'

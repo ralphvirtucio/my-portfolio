@@ -1,10 +1,8 @@
 .form__control {
+  display: flex;
+  flex-direction: column;
 
-  &.email {
-    display: flex;
-    flex-direction: column;
-    margin-block: 1.5rem;
-  }
+
 
   input {
     background-color: transparent;
@@ -24,17 +22,18 @@
       border-bottom: 1px solid var(--primaryColorOne)
     }
 
+
+
   }
 }
 
-.form__control--email {
+.form__control--input {
   display: flex;
   align-items: center;
   position: relative;
 
 
 }
-
 
 
 .invalid__icon {
@@ -61,4 +60,8 @@
   color: var(--accentColorOne);
   align-self: flex-end;
   font-size: 0.75rem;
+}
+
+.input__email {
+  margin-block: 1.5rem;
 }
