@@ -9,9 +9,8 @@ export const Input = ({
   customInputStyle,
   value,
   onChange,
+  isInputInvalid,
 }) => {
-  const isInputInvalid = false;
-
   return (
     <div className={`${styles.form__control} ${styles[customInputStyle]}`}>
       <div className={styles['form__control--input']}>
@@ -53,4 +52,5 @@ Input.propTypes = {
   value: PropTypes.string,
   customInputStyle: PropTypes.string,
   onChange: PropTypes.func,
+  isInputInvalid: PropTypes.bool,
 };
