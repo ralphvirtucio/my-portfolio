@@ -26,6 +26,10 @@ export const ContactContainer = () => {
   function handleSubmitContactForm(e) {
     e.preventDefault();
 
+    if(!name || !email || !textArea) {
+        alert('Field is empty')
+    }
+
     const contactInfo = {
       name,
       email,

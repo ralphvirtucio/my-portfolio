@@ -11,7 +11,8 @@ export const Hero = () => {
         <div className={styles.hero__content}>
           <h2 className={styles['hero__content--heading']}>
             Nice to meet you! I&apos;m{' '}
-            <span className={styles.hero__name}>Ralph Virtucio</span>.
+            {/* <span className={styles.hero__name}>Ralph Virtucio</span>. */}
+            <span className={styles.hero__name}>Adam Keyes</span>.
           </h2>
           <p className={styles['hero__content--text']}>
             Based in the Philippines, I&apos;m a front-end developer passionate
