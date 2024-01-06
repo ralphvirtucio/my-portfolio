@@ -12,7 +12,8 @@ export const SocialMediaBar = ({ children, customSocialMediaStyle }) => {
           <a
             href='https://github.com/ralphvirtucio'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+            aria-label='Check out Ralph Virtucio Github'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='25'
@@ -32,7 +33,8 @@ export const SocialMediaBar = ({ children, customSocialMediaStyle }) => {
           <a
             href='https://www.frontendmentor.io/profile/ralphvirtucio'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+            aria-label='Check out Ralph Virtucio Frontend Mentor'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='26'
@@ -51,7 +53,8 @@ export const SocialMediaBar = ({ children, customSocialMediaStyle }) => {
           <a
             href='https://www.linkedin.com/in/ralph-virtucio-970152229'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+            aria-label='Check out Ralph Virtucio LinkedIn'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='25'
@@ -71,7 +74,8 @@ export const SocialMediaBar = ({ children, customSocialMediaStyle }) => {
           <a
             href='https://twitter.com/frontendralph'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+            aria-label='Check out Ralph Virtucio Twitter'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
