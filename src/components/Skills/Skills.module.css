@@ -76,6 +76,10 @@
     max-width: 70rem;
     margin-inline: auto;
   }
+
+  .skill__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media only screen and (min-width: 90rem) {

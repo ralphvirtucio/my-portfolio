@@ -93,9 +93,7 @@
    }
 
    .container {
-     /* grid-template-columns: 3fr 5rem 2fr; */
-     grid-template-columns: 5fr 10rem 2fr;
-
+     grid-template-columns: 3fr 5rem 2fr;
    }
 
 
@@ -144,13 +142,15 @@
    .container {
      max-width: 70rem;
      margin-inline: auto;
+     grid-template-columns: 5fr 10rem 2fr;
    }
+
 
    .hero__content--heading {
      font-size: var(--fontSizeXL);
      line-height: var(--lineHeightXL);
      letter-spacing: var(--letterSpacingXL);
-
+     margin-block-start: 2rem;
    }
 
    .hero__content--text {
