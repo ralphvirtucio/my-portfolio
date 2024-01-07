@@ -28,6 +28,9 @@
    transform: translateY(-130px);
    margin-block-end: -8rem;
    position: relative;
+
+
+   background-color: #242424;
  }
 
  .hero__content--heading {

@@ -1,6 +1,7 @@
 import profileMobile from '../../assets/images/image-profile-mobile.webp';
 import profileTablet from '../../assets/images/image-profile-tablet.webp';
 import profileDesktop from '../../assets/images/image-profile-desktop.webp';
+import myProfile from '../../assets/images/image-profile-me.png';
 import { ButtonLink } from '../Button/Button';
 import styles from './Hero.module.css';
 
@@ -11,8 +12,7 @@ export const Hero = () => {
         <div className={styles.hero__content}>
           <h2 className={styles['hero__content--heading']}>
             Nice to meet you! I&apos;m{' '}
-            {/* <span className={styles.hero__name}>Ralph Virtucio</span>. */}
-            <span className={styles.hero__name}>Adam Keyes</span>.
+            <span className={styles.hero__name}>Ralph Virtucio</span>.
           </h2>
           <p className={styles['hero__content--text']}>
             Based in the Philippines, I&apos;m a front-end developer passionate
@@ -23,7 +23,11 @@ export const Hero = () => {
         </div>
 
         <div className={styles.hero__img}>
-          <picture>
+          <img
+            src={myProfile}
+            alt='Ralph Virtucio'
+          />
+          {/* <picture>
             <source
               media='(min-width: 48rem)'
               srcSet={profileTablet}
@@ -37,7 +41,7 @@ export const Hero = () => {
               src={profileMobile}
               alt='Profile'
             />
-          </picture>
+          </picture> */}
         </div>
       </div>
     </section>
