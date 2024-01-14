@@ -7,7 +7,7 @@ export const Project = ({ title, thumbnail, skills, liveSite, repo }) => {
     return <li key={`${skill}-${i}`}>{skill}</li>;
   });
 
-  console.log(liveSite, repo)
+
 
   return (
     <li className={styles.project}>

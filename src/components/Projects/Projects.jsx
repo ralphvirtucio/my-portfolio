@@ -30,35 +30,35 @@ export const Projects = () => {
           thumbnail={thumbnailProjectTwo}
           skills={['HTML', 'CSS', 'SASS', 'JAVASCRIPT', 'REACT']}
           liveSite='https://intro-component-with-signup-form-livid-nine.vercel.app'
-          repo="https://github.com/ralphvirtucio/intro-component-with-signup-form"
+          repo='https://github.com/ralphvirtucio/intro-component-with-signup-form'
         />
         <Project
           title='Fylo landing page with two column layout'
           thumbnail={thumbnailProjectThree}
           skills={['HTML', 'CSS', 'SASS']}
-          liveSite="https://ralphvirtucio.github.io/fylo-landing-page-two-column"
-          repo="https://github.com/ralphvirtucio/fylo-landing-page-two-column"
+          liveSite='https://ralphvirtucio.github.io/fylo-landing-page-two-column'
+          repo='https://github.com/ralphvirtucio/fylo-landing-page-two-column'
         />
         <Project
           title='Intro section with dropdown navigation'
           thumbnail={thumbnailProjectFour}
           skills={['HTML', 'CSS', 'SASS', 'JavaScript']}
-          liveSite="https://ralphvirtucio.github.io/intro-section-with-dropdown-nav/"
-          repo="https://github.com/ralphvirtucio/intro-section-with-dropdown-nav/tree/main"
+          liveSite='https://ralphvirtucio.github.io/intro-section-with-dropdown-nav/'
+          repo='https://github.com/ralphvirtucio/intro-section-with-dropdown-nav/tree/main'
         />
         <Project
           title='News homepage'
           thumbnail={thumbnailProjectFive}
           skills={['HTML', 'CSS', 'SASS', 'JavaScript']}
-          liveSite="https://ralphvirtucio.github.io/news-homepage/"
-          repo="https://github.com/ralphvirtucio/news-homepage"
+          liveSite='https://ralphvirtucio.github.io/news-homepage/'
+          repo='https://github.com/ralphvirtucio/news-homepage'
         />
         <Project
           title='Tip calculator app'
           thumbnail={thumbnailProjectSix}
           skills={['HTML', 'CSS', 'SASS', 'JAVASCRIPT', 'REACT']}
-          live='https://tip-calculator-app-drab-five.vercel.app/'
-          repo="https://github.com/ralphvirtucio/tip-calculator-app"
+          liveSite='https://tip-calculator-app-drab-five.vercel.app/'
+          repo='https://github.com/ralphvirtucio/tip-calculator-app'
         />
       </ul>
     </section>
