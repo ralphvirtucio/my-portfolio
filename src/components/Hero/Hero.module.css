@@ -1,5 +1,6 @@
  .hero {
-   background: url('../../assets/images/pattern-rings.svg') no-repeat top right 200px, url('../../assets//images/pattern-circle.svg') no-repeat bottom 300px right -70px;
+   background: url('../../assets/images/pattern-rings.svg') no-repeat top right 200px;
+   /* background: url('../../assets/images/pattern-rings.svg') no-repeat top right 200px, url('../../assets//images/pattern-circle.svg') no-repeat bottom 300px right -70px; */
  }
 
 
@@ -29,7 +30,7 @@
    margin-block-end: -8rem;
    position: relative;
 
-
+  z-index: -1;
    background-color: #242424;
  }
 
@@ -91,7 +92,7 @@
 
  @media only screen and (min-width: 48rem) {
    .hero {
-     background-position: top right 550px, bottom 10px right -70px;
+     background-position: top right 550px;
 
    }
 
@@ -139,7 +140,7 @@
 
  @media only screen and (min-width: 64rem) {
    .hero {
-     background-position: top right 600px, bottom 150px right 400px;
+     background-position: top right 600px;
    }
 
    .container {
@@ -165,7 +166,7 @@
 
  @media only screen and (min-width: 90rem) {
    .hero {
-     background-position: top right 992px, bottom 150px right 590px;
+     background-position: top right 992px;
    }
 
  }

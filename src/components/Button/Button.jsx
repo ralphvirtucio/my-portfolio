@@ -5,6 +5,8 @@ export const ButtonLink = ({ children, link = '#' }) => {
   return (
     <a
       href={link}
+      target='_blank'
+      rel='noreferrer'
       className={styles['primary__btn-link']}>
       {children}
     </a>
