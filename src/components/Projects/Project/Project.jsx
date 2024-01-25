@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './Project.module.css';
 import { ButtonLink } from '../../Button/Button';
 
-export const Project = ({ title, thumbnail, skills, liveSite, repo }) => {
+export const Project = ({ title, thumbnailMobile, thumbnailDesktop, skills, liveSite, repo }) => {
   const mappedSkills = skills.map((skill, i) => {
     return <li key={`${skill}-${i}`}>{skill}</li>;
   });
@@ -16,10 +16,22 @@ export const Project = ({ title, thumbnail, skills, liveSite, repo }) => {
         <ButtonLink link={liveSite}>View Project</ButtonLink>
         <ButtonLink link={repo}>View Code</ButtonLink>
         </div>
-        <img
-          src={thumbnail}
-          alt={title}
-        />
+        <picture>
+            <source
+              media='(min-width: 64rem)'
+              srcSet={thumbnailDesktop}
+            />
+
+            <source
+              media='(min-width: 48rem)'
+              srcSet={thumbnailMobile}
+            />
+           
+            <img
+              src={thumbnailMobile}
+              alt={title}
+            />
+          </picture> 
       </div>
       <div className={styles.project__content}>
         <h2 className={styles.project__title}>{title}</h2>
@@ -35,7 +47,8 @@ export const Project = ({ title, thumbnail, skills, liveSite, repo }) => {
 
 Project.propTypes = {
   title: PropTypes.string,
-  thumbnail: PropTypes.string,
+  thumbnailMobile: PropTypes.string,
+  thumbnailDesktop: PropTypes.string,
   skills: PropTypes.array,
   liveSite: PropTypes.string,
   repo: PropTypes.string

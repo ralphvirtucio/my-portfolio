@@ -1,7 +1,7 @@
 import profileMobile from '../../assets/images/my-profile-bg-mobile.png';
 import profileTablet from '../../assets/images/my-profile-bg-tablet.png';
 import profileDesktop from '../../assets/images/my-profile-bg-desktop.png';
-import { ButtonLink } from '../Button/Button';
+import { ContactLink } from '../Button/Button';
 import styles from './Hero.module.css';
 
 export const Hero = () => {
@@ -18,19 +18,22 @@ export const Hero = () => {
             about building accessible web apps that users love.
           </p>
 
-          <ButtonLink link='#contact'>Contact Me</ButtonLink>
+          <ContactLink link='#contact'>Contact Me</ContactLink>
         </div>
 
         <div className={styles.hero__img}>
           <picture>
+          <source
+              media='(min-width: 64rem)'
+              srcSet={profileDesktop}
+            />
+
+            
             <source
               media='(min-width: 48rem)'
               srcSet={profileTablet}
             />
-            <source
-              media='(min-width: 64rem)'
-              srcSet={profileDesktop}
-            />
+           
 
             <img
               src={profileMobile}

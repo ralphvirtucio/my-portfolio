@@ -7,15 +7,15 @@ export const Skills = () => {
         <ul className={styles.skill__list}>
           <li className={styles['skill__list-item']}>
             <h3>HTML</h3>
-            <p>3 Years Experience</p>
+            <p>2 Years Experience</p>
           </li>
           <li className={styles['skill__list-item']}>
             <h3>CSS</h3>
-            <p>3 Years Experience</p>
+            <p>2 Years Experience</p>
           </li>
           <li className={styles['skill__list-item']}>
             <h3>JavaScript</h3>
-            <p>3 Years Experience</p>
+            <p>2 Years Experience</p>
           </li>
           <li className={styles['skill__list-item']}>
             <h3>React</h3>

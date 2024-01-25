@@ -18,6 +18,22 @@ ButtonLink.propTypes = {
   link: PropTypes.string,
 };
 
+
+export const ContactLink = ({ children, link }) => {
+  return (
+    <a
+      href={link}
+      className={styles['primary__btn-link']}>
+      {children}
+    </a>
+  );
+};
+
+ContactLink.propTypes = {
+  children: PropTypes.node,
+  link: PropTypes.string,
+};
+
 export const PrimaryButton = ({ children, type = 'button', buttonStyle }) => {
   return (
     <button

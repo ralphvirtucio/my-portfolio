@@ -1,8 +1,10 @@
 .project {
-  img {
+  picture source {
     margin-block-end: 1.25rem;
   }
-
+  picture img {
+    margin-block-end: 1.25rem;
+  }
 }
 
 
