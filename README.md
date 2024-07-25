@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/ralphvirtucio/my-portfolio)
-- Live Site URL: [Live Site](https://my-portfolio-black-beta.vercel.app)
+- [Solution URL](https://github.com/ralphvirtucio/my-portfolio)
+- [Live Site URL](https://ralphvirtucio-portfolio.vercel.app/)
 
 ## My process
 
